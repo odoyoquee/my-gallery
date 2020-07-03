@@ -46,4 +46,4 @@
 - No known bugs, if you encounter any, feel free to contact me.
 
 
-### [![MIT license]()]
+### [![MIT license](https://github.com/odoyoquee/my-gallery/blob/master/LICENSE.md)]
