@@ -7,3 +7,11 @@
 
 ## PROJECT AUTHOR
 - Odoyo Grace Awino
+
+## TECHNOLOGY USED
+- Bootstrap
+- Django
+- css and bootstrap
+- Html
+- Database
+- python
