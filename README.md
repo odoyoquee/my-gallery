@@ -20,9 +20,11 @@
 - Python 3.6
 - Internet Connection
 - Run the following commands on your terminal:
-`$ git clone https://github.com/odoyoquee/gallery`
+`$ git clone https://github.com/odoyoquee/my-gallery`
 - Navigate to the folder
  `$ cd <folder/file name>`
 - To run the application;
  `$ python3.6 manage.py runserver`
 
+
+##  Github livelink
