@@ -26,6 +26,14 @@
 - To run the application;
  `$ python3.6 manage.py runserver`
 
+ ## User Stories
+# As a user you are able to;
+* View different photos that interest you.
+* Click on a single photo to expand it and also view the details of the photo.
+* Search for different categories of photos. (ie. Fashion, Cosmetics)
+* Copy a link to the photo to share with friends.
+* View photos based on the location they were taken.
+
 
 ##  Github livelink
 
