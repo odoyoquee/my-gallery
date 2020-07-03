@@ -1,0 +1,16 @@
+.form-rounded{
+      border-radius: 50px;
+}
+body {
+      height: 100%;
+      background-image: url("https://bit.ly/2NRi0fi");
+      /* background-color: #cccccc; */
+}
+
+#page-content {
+      flex: 1 0 auto;
+}
+
+#sticky-footer {
+      flex-shrink: none;
+}

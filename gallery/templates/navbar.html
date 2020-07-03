@@ -1,0 +1,52 @@
+<!-- <nav class="navbar navbar bg-dark">
+    <div class="container"> -->
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="{% url 'imageToday' %}" style="font-size: 20px; font-family:FontAwesome; color:whitesmoke;">Home</a>
+
+        </div>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false" style="color:white;font-size:20px;">
+                Category
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: grey; opacity:0.9;">
+                {% for data in category %}
+                <a class="dropdown-item" href="/category/{{data.name}}" style=" color:black;font-size: 20px;">{{data.name}}</a>
+                <div class="dropdown-divider"></div>
+                {% endfor %}
+            </div>
+        </li>
+
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false" style="color:whitesmoke;font-size:20px;">
+                Location
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: grey; opacity:0.9;">
+                {% for item in location %}
+                <a class="dropdown-item" href="/location/{{item.name}}" style=" color:black;font-size: 20px;">{{item.name}}</a>
+                <div class="dropdown-divider"></div>
+
+
+                {% endfor %}
+            </div>
+        </li>
+        <!-- Adding a search form  -->
+        <div class="col-sm-4 col-md-2 navbar-right">
+
+            <form class="navbar-form" role="search" action="{% url 'search_results' %}">
+
+                <div class="input-group">
+                    <input type="text" class="form-control form-rounded" placeholder="Search Image" name="image">
+                    <div class="input-group-btn" style="margin-right:40px;">
+                        <button class="btn btn-outline-light btn-xl btn-circle.btn-xl" style = "margin-left:0.5px"type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+        <!-- search form end -->
+    </div>
+</nav>
