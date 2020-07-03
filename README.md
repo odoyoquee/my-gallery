@@ -33,3 +33,6 @@
 ## CONTACTS 
 - Email:odoyograce23@gmail.com
 - Github:odoyoquee
+
+## KNOWN BUGS
+- No known bugs, if you encounter any, feel free to contact me.
